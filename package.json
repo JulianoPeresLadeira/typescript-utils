@@ -1,0 +1,36 @@
+{
+    "name": "-",
+    "version": "0.0.1",
+    "description": "Template for creating a simple typescript library",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "lint": "eslint . --ext .ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JulianoPeresLadeira/typescript-library-template.git"
+    },
+    "author": "Juliano Ladeira",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JulianoPeresLadeira/typescript-library-template/issues"
+    },
+    "files": [
+        "lib"
+    ],
+    "devDependencies": {
+        "@types/jest": "^24.0.18",
+        "@types/moment": "^2.13.0",
+        "@types/node": "^12.7.4",
+        "@typescript-eslint/eslint-plugin": "^2.29.0",
+        "@typescript-eslint/parser": "^2.29.0",
+        "eslint": "^6.8.0",
+        "jest": "^24.9.0",
+        "ts-jest": "^24.0.2",
+        "typescript": "^3.8.3"
+    },
+    "homepage": "https://github.com/JulianoPeresLadeira/typescript-library-template#readme"
+}
